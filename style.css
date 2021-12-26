@@ -9,4 +9,48 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
 /* Add styles here! */
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main {
+  background-color: hsl(0deg, 0%, 60%);
+  padding: 96px 0;
+}
+
+.intro-chunk {
+  padding: 96px 0 48px;
+  max-width: 400px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.intro-chunk {
+  width: fit-content;
+}
+
+.card {
+  background-color: white;
+  padding: 24px;
+  margin: -24px;
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.indented-heading {
+  background: hsl(45deg, 100%, 50%);
+  padding: 20px 40px;
+  text-align: center;
+  max-width: 50%;
+}
